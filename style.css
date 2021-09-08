@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+#display{
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.logo img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 40px;
+}
+
+.thistime #thistime {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+
+.btn {
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    color: black;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+
+#display1,
+#display2,
+#display3,
+#display4,
+#display5,
+#display6,
+#display7,
+#display8{
+    font-size: 30px;
+    width: 250px;
+    height: 100px;
+    margin-top: 20px;
+    line-height: 100px;
+}
+
+.ucok{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    height: 150px;
+}
+
+.kelas{
+    width: 250px;
+    height: 100px;
+    line-height: 80px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-top: 30px;
+    size: 100px;
+}
